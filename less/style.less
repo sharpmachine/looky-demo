@@ -1,0 +1,56 @@
+
+h1, p
+{
+	text-align: center;
+}
+
+a
+{
+	display: block;
+}
+
+#iphone
+{
+	width: 379px;
+	height: 815px;
+	margin: 0 auto;
+	background: url(../img/iphone5.png) no-repeat;
+	position: relative;
+}
+
+#screen
+{
+	width: 320px;
+	height: 568px;
+	color: #fff;
+	position: absolute;
+	top: 118px;
+	left: 32px;
+	
+	#screen-inner
+	{
+		width: 280px;
+		height: 568px;
+		padding: 0 20px;
+		overflow: scroll;
+		
+		p
+		{
+			text-align: left;
+		}
+	}
+}
+
+#home-button
+{
+	width: 69px;
+	height: 69px;
+	position: absolute;
+	bottom: 45px;
+	left: 155px;
+	
+	&:active
+	{
+		.rotate(180deg);
+	}	
+}
